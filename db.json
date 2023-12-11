@@ -83,6 +83,62 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2023-12-09",
+      "description": "Please",
+      "category": "Work",
+      "amount": "12",
+      "id": 13
+    },
+    {
+      "date": "2023-12-12",
+      "description": "Take",
+      "category": "Another",
+      "amount": "12",
+      "id": 14
+    },
+    {
+      "date": "2023-12-08",
+      "description": "Another",
+      "category": "One",
+      "amount": "19",
+      "id": 15
+    },
+    {
+      "date": "",
+      "description": "Kev",
+      "category": "Got it",
+      "amount": "100",
+      "id": 16
+    },
+    {
+      "date": "2023-12-12",
+      "description": "Work",
+      "category": "Again",
+      "amount": "100",
+      "id": 17
+    },
+    {
+      "date": "2023-12-09",
+      "description": "Another",
+      "category": "try",
+      "amount": "2000",
+      "id": 18
+    },
+    {
+      "date": "2023-12-10",
+      "description": "Code ",
+      "category": "Complete",
+      "amount": "1200",
+      "id": 19
+    },
+    {
+      "date": "2023-12-12",
+      "description": "Jamhuri",
+      "category": "Day",
+      "amount": "1200",
+      "id": 20
     }
   ]
 }

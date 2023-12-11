@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import TransactionsList from "./TransactionsList";
 import Search from "./Search";
-import AddTransactionForm from "./AddTransactionForm";
 
 function AccountContainer() {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearch = (term) => {
+    setSearchTerm(term);
+  };
+
   return (
     <div>
-      <Search />
-      <AddTransactionForm />
-      <TransactionsList />
+      <Search onSearch={handleSearch} />
+      <TransactionsList searchTerm={searchTerm} handleSearch={handleSearch} />
     </div>
   );
 }
